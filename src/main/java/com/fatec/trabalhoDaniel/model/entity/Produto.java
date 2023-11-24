@@ -22,7 +22,7 @@ public class Produto
     public Produto() {
     }
 
-    public Produto(String nome, String descricao, String grupo, int quantidade) {
+    public Produto(Long id, String nome, String descricao, String grupo, int quantidade) {
         this.nome = nome;
         this.descricao = descricao;
         this.grupo = grupo;
@@ -32,7 +32,6 @@ public class Produto
     public Long getId() {
         return id;
     }
-
 
     public String getNome() {
         return nome;
