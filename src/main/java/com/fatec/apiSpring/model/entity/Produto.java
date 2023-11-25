@@ -1,4 +1,4 @@
-package com.fatec.trabalhoDaniel.model.entity;
+package com.fatec.apiSpring.model.entity;
 
 import jakarta.persistence.*;
 

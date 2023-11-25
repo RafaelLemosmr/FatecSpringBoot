@@ -1,8 +1,8 @@
-package com.fatec.trabalhoDaniel.services;
+package com.fatec.apiSpring.services;
 
-import com.fatec.trabalhoDaniel.model.dto.ProdutoDTO;
-import com.fatec.trabalhoDaniel.model.entity.Produto;
-import com.fatec.trabalhoDaniel.model.repository.ProdutoRepository;
+import com.fatec.apiSpring.model.dto.ProdutoDTO;
+import com.fatec.apiSpring.model.entity.Produto;
+import com.fatec.apiSpring.model.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

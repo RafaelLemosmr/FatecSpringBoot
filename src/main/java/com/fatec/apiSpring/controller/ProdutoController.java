@@ -1,7 +1,7 @@
-package com.fatec.trabalhoDaniel.controller;
+package com.fatec.apiSpring.controller;
 
-import com.fatec.trabalhoDaniel.model.dto.ProdutoDTO;
-import com.fatec.trabalhoDaniel.services.ProdutoService;
+import com.fatec.apiSpring.model.dto.ProdutoDTO;
+import com.fatec.apiSpring.services.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

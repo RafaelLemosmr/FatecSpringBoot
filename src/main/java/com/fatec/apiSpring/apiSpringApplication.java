@@ -1,13 +1,13 @@
-package com.fatec.trabalhoDaniel;
+package com.fatec.apiSpring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrabalhoDanielApplication {
+public class apiSpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TrabalhoDanielApplication.class, args);
+		SpringApplication.run(apiSpringApplication.class, args);
 	}
 
 }
