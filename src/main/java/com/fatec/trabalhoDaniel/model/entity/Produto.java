@@ -2,13 +2,13 @@ package com.fatec.trabalhoDaniel.model.entity;
 
 import jakarta.persistence.*;
 
-@Table(name = "produto")
+@Table(name = "produtos")
 @Entity
 public class Produto
 {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
     private String nome;
