@@ -32,13 +32,14 @@ public class ProdutoController
     }
 
     @PutMapping
-    public ProdutoDTO updateProduto(@RequestBody ProdutoDTO produtoDTO){
-        return service.updateProduto(produtoDTO);
+    public ResponseEntity<ProdutoDTO> updateProduto(@RequestBody ProdutoDTO produtoDTO){
+        return ResponseEntity.ok().body(service.updateProduto(produtoDTO));
     }
 
-    @DeleteMapping
-    public void deleteProduto(@PathVariable Long id){
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> removeProduto(@PathVariable("id") Long id) {
         service.deleteProduto(id);
+        return ResponseEntity.status(204).build() ;
     }
 
 }
