@@ -4,4 +4,4 @@ rota /get/id lista o produto que tenha o id correspondente (como ainda não fora
 rota /post cria um novo produto, 
 rota /put edita e salva um produto, caso o produto não exista será criado no banco 
 rota /delete/id verifica e deleta o produto 
-Projeto criado para as disciplinas de Engenharia de Software, Programação de Scripts e Programação Orientada a objetos
+Projeto criado com Murilo Marques para as disciplinas de Engenharia de Software, Programação de Scripts e Programação Orientada a objetos
